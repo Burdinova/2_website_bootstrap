@@ -1,0 +1,159 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+/* img {
+  display: block;
+  max-width: 100%;
+} */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p, ul {
+  padding: 0;
+  margin: 0;
+}
+.main__p {
+  font-size: 16px;
+  color: #727272;
+  font-weight: 300;
+  line-height: 1.8;
+}
+.nav-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 164.063%; /* 26.25px */
+  letter-spacing: 1.6px;
+}
+.main,
+.header {
+  background: #eeeff1;
+}
+/* .container {
+  max-width: 1100px;
+  margin: 0 auto;
+} */
+.btn-itd {
+  max-width: 225px;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px 41px;
+  color: #fff;
+  background-color: #34547a;
+  font-weight: 400;
+  line-height: 164.063%; /* 26.25px */
+  letter-spacing: 1.6px;
+}
+.main__h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 164.063%;
+}
+.about__p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 164.063%;
+  color: #727272;
+}
+.about__h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.project {
+  background-color: #34547a;
+}
+.project__img {
+  max-width: 50px;
+  max-height: 50px;
+}
+.project__number {
+  font-size: 21px;
+  color: #fff;
+  font-weight: 500;
+}
+.project__text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 164.063%;
+}
+
+.progress__h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.progress__text {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 164.063%;
+}
+progress {
+  width: 445px;
+  height: 4px;
+  border: none;
+  background-color: #c4c4c4;
+  /* border-radius: 10px; */
+  overflow: hidden;
+}
+.custom-progress::-webkit-progress-value {
+  background-color: #34547a; /* Красный цвет */
+  /* border-radius: 10px; */
+}
+.skills__photo {
+  max-width: 555px;
+}
+/* @media (max-width: 995px) {
+   progress {
+    width: 100%;
+    max-width: 445px;
+  } 
+
+} */
+
+/* .skills__photo{
+  margin: 0 auto;
+} */
+@media (max-width: 575px) {
+  .main__h2 {
+    text-align: center;
+    padding-top: 30px;
+    line-height: 120%;
+  }
+  .main__p {
+    text-align: center;
+  }
+  .btn-itd {
+    /* text-align: center; */
+    display: block;
+    margin: 0 auto;
+  }
+  /* .progress__h2 {
+    text-align: center;
+  } */
+  .skills__progress {
+    text-align: center;
+  }
+  .custom-progress {
+    width: 350px;
+  }
+}
+@media (max-width: 435px) {
+  .custom-progress {
+    width: 200px;
+  }
+}
