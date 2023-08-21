@@ -160,13 +160,20 @@ progress {
 textarea.textarea__message {
   min-height: calc(1.5em + 0.75rem + 2px);
 }
+
 @media (max-width: 1110px) {
   .portfolio__flex {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .portfolio__flex{
+    gap: 15px;
+  }
 }
 @media (max-width: 575px) {
+  .header img {
+    margin: 0 auto;
+  }
   .main__h2 {
     text-align: center;
     padding-top: 30px;
